@@ -5,7 +5,7 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 ## <ins>Part 1: Database and Jupyter Notebook Set Up</ins>
 
-Using the `NoSQL_setup_starter.ipynb` notebook, I Imported the data provided in the establishments.json file from my Terminal. The database is named uk_food and the collection is called establishments. 
+Using the `NoSQL_setup_starter.ipynb` <a href="https://github.com/HJandu/nosql-challenge/blob/main/NoSQL_setup_starter.ipynb">notebook</a> , I Imported the data provided in the establishments.json file from my Terminal. The database is named uk_food and the collection is called establishments. 
 The following text was used to import the data from terminal. 
 
 `mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json`
@@ -28,7 +28,7 @@ The magazine editors have some requested modifications for the database before I
 RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating. Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating.
 The scores for Hygiene, Structural, and ConfidenceInManagement work is in reverse. This means, the higher the value, the worse the establishment is in these areas.
 
-Using the `NoSQL_analysis_starter.ipynb` for this section of the challenge, I was able to explore the dataset, so I could provide them to the magazine editors.
+Using the `NoSQL_analysis_starter.ipynb` <a href="https://github.com/HJandu/nosql-challenge/blob/main/NoSQL_analysis_starter.ipynb">notebook</a> for this section of the challenge, I was able to explore the dataset, so I could provide them to the magazine editors.
 
 
 - I used `count_documents` to display the number of documents contained in the result.
